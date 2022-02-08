@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <audio src="midia/vibe-mountain.mp3" autoplay controls loop></audio>
+    <!--O parametro 'autoplay' pode não funcioar dependendo do navegador-->
+    <!--O parametro 'controls' faz ficar disponível o botão e play para o usuario-->
+    <!--O parametro 'Loop' faz a música recomeçar quando ela acabar-->
+    <!-- Formatos: MP3, WAY, OGG (funcionar para quase todos os navegadores)-->
+
+    <p>Outra maneira de reproduzir áudios</p> 
+    <audio preload="metadata" autoplay controls> <!--"preload": Auto: o site só carrega dps de carregar todo o áudio tbm.
+                                                                metadata: vai carregar só nome do arquivo e algumas informações como data, duração, etc.
+                                                                nome: não vai carregar nada, apenas quando o usuário apertar o play -->
+        
+        <!-- Apaga-se o parametro 'src=' e coloca 'source src=' -->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!--Pode-se consultar o 'type' de cada formato no material da aula em PDF-->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg"> <!--O navegador vai tentar reproduzir em todos esses formatos seguindo a ordem-->
+        <source src="midia/guanacast-33.way" type="audio/way"> <!--Tentar evitar o formato Way pois é muito pesado-->
+        <p>Infelismente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+        <!--Caso o navegador não consiga reproduzir nenhum aparecerá a msg para baixar o áudio-->
+    </audio>
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(136, 134, 134);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404);
+        }
+        nav >a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgba(230, 76, 76, 0.74);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+
+        }
+        article{
+            background-color: lightgray;
+            
+
+
+        }
+        article > aside {
+            background-color: rgb(158, 157, 157);
+            color: yellow;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<!--'header','main','footer' são como 'Div', são chamdas de grouping tags ou tags semânticas-->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>       <!--Menu de Navegação! -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos relacionados a economia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo molestias 
+                odio nam minima fuga nostrum numquam fugiat animi itaque, quibusdam, repudiandae 
+                eligendi, provident voluptatum harum dolorem. Repudiandae, repellendus numquam!</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quo 
+                    nihil libero ex quas et, odio enim eum dolorum distinctio. Libero tenetur 
+                    necessitatibus inventore, hic sed quo veniam nobis error.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article>
+            <article>
+                <h2>Notícia sobre o Japão</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quo 
+                    nihil libero ex quas et, odio enim eum dolorum distinctio. Libero tenetur 
+                    necessitatibus inventore, hic sed quo veniam nobis error.</p>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em video</p>
+
+    </footer>
+
+    <div id="bola"></div>
+
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS:
+            # = id
+            . = class
+            : = Pseudo class
+            :: = pseudo element
+            > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none; /* Tira o sublinhado*/
+            font-weight: bold;
+        }
+        a:visited{                  /*Pseudo classe que Altera os links já visitados */
+            color: darkred;
+        }
+        a:hover{                   /*Pseudo classe que Altera quando passa o mouse em cima*/
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{                   /*Pseudo classe que Altera quando clica em cima*/
+            color: yellow;
+        }
+        a::before{
+            content: '☞    ';      /*Pseudo Elemento que Add conteúdo antes do texto */
+            /*Simbolo: só jogar no google: 'simbolos html5' */
+        }
+        a::after{           /*Pseudo Elemento que Add conteúdo dps do texto */
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(97, 95, 95);
+        }
+        .especial{
+            background-color: rgba(83, 153, 98, 0.651);
+
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>                                <!--' target="_blank" ' Para abrir o link em outra aba-->
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/"target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com"target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    
+</body>
+</html>

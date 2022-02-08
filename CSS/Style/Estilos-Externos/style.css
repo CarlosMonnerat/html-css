@@ -1,0 +1,19 @@
+@charset "UTF-8"; /*Uma 'regra' que Resolve Compatibilidade de acentuações*/
+
+body{
+    background-color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: red;
+    background-color: darkgray;
+
+}
+h2{
+    color: darkblue;
+}
+p{
+    color: blanchedalmond;
+    text-align: justify;
+}

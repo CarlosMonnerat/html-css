@@ -1,0 +1,17 @@
+(Para pegar fotos e vídeos sem direitos autorais)
+- Pexels.com
+
+(para converter formato de vídeos)
+- Handbrake.com 
+
+(Para montar paletas de cor)
+- Adobe color 
+- Paletton.com (monta site de exemplo)
+
+(Para consultar Fontes)
+- Css web Safe Fonts (W3 schools)
+- Google fonts
+- DaFont.com (Para baixar fontes personalizadas)
+
+(Para planejar o Layout de sites)
+-MockFlow.com

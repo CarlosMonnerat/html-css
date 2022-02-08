@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links Externos</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io/">repositório público no GitHub</a></p>
+
+    <p>Você tembém pode acessar meu <a href="https://youtube.com/cursoemvideo/">canal gratuito do Youtube</a></p>
+
+    <h2>Quando for Link externo sempre se recomenda a forma a baixo:</h2>
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <!--'target="_blank"' faz o site abrir em uma aba diferente. "
+        Já o 'rel' serve mais para o mecanismo de busca-->
+
+
+    <p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p>
+    <!--'nofollow' geralmente para sites que não tem nosso aval-->
+
+    <p>Para ir para página de Links Internos clique <a href="linkinterno.html" rel="prev">aqui.</a></p>
+
+    <h1>Links para Downloads</h1> <!--Para consultar MEDIA TYPES: iana.org/assignments/mediatypes-->
+    <ul>
+        <li><a href="livro/物理学 1 教材.pdf" download="物理学 1 教材.pdf">Baixar o livro em PDF</a></li>
+        <!--Alguns navegadores não aceitam apenas com o parametro "download". Nesse caso, tbm podemos utilizar ao lado o parametro "type="applixation/pdf"-->
+        <li><a href="livro/物理学 1 教材.rar" download="物理学 1 教材.rar" type="aplicattion/zip">Livro compactado em ZIP</a></li>
+
+    </ul>
+    
+</body>
+</html>
