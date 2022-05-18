@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box; /*Incorpora dentro de cada Div-filha os 'padding', 'Margin' etc. */
+}
+
+
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-pai div{
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+
+}
