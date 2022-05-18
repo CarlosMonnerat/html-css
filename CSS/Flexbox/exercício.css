@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box; /*Incorpora dentro de cada Div-filha os 'padding', 'Margin' etc. */
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #467401;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.navbarra{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.navbarra a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbarra a:hover{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    flex:48%;
+    background-color: #ccc;
+    height: 400px;
+    margin: 1%;
+
+}
+
+@media  screen and (max-width:700px) {
+    .navbarra{
+        flex-direction: column;
+    }
+    
+}
