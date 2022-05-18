@@ -1,0 +1,25 @@
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    /*EM CONJUNTO*/
+    align-content: center; /*Organiza as divs de forma conjunta (Move todas juntas)
+    'align-content: flex-start;': Posiciona as Divs na parte Superior 
+    'align-content: flex-end;': Posiciona as Divs na parte Inferior 
+    */
+}
+
+.flex-pai div{
+    flex-grow: 1; /*As Div-filhas tem o seu tamanho adaptado automaticamento ao tamanho da Div-pai*/
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+
+}

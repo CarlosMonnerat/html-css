@@ -1,0 +1,41 @@
+DISPLAY: FLEX:
+
+/* 'display: block' (Padrão)    */
+    display: flex; /*Coloca as Divs uma do lado da outra.
+    'display: flex' permite que tenhamos mais domínio do layout da página do que um "display: inline-block" */
+    
+    flex-direction: row;
+    /*Com o 'display: flex' podemos utilizar o 'flex-direction:' para determinar se as div aparecerão em linhas ou em colunas*/
+    flex-wrap: wrap; /*Ajusta as Divs de acordo com o tamanho da Div-pai.
+    'flex-wrap: nowrap;' (Padrão): As divs não levam em consideração o tamanho da div-pai
+                                ~ Formato 'Short-Hand'~ : 
+    "flex-flow: row wrap; */
+
+
+/*POSICIONAMENTO*/
+
+    /*HORIZONTAL*/
+    justify-content: center ; /*Controla as propriedades na Horizontal
+    'justify-content: flex-start' (padrão): Posiciona a Esquerda da Div-pai
+    'justify-content: flex-end': Posiciona a Direita da Div-pai
+    'justify-content: space-between': Adapta um espaçamento uniforme entre as divs de acordo com o tamanho da Div-pai
+    'justify-content: space-around': Cria um espaçamento uniforme em volta de cada div, respeitando o tamanho da Div-pai
+    */
+
+    /*VERTICAL*/
+    align-items: center;  /*Controla as propriedades na Vertical
+    'align-items: stretch;' (Padrão): As divs acompanham a altura total da Div-pai
+    'align-items: flex-start;': posiciona na parte de cima da Div-pai
+    'align-items: flex-end;': posiciona na parte de baixo da Div-pai
+    */
+
+   /*EM CONJUNTO*/
+    align-content: center; /*Organiza as divs de forma conjunta (Move todas juntas)
+    'align-content: flex-start;': Posiciona as Divs na parte Superior 
+    'align-content: flex-end;': Posiciona as Divs na parte Inferior 
+    */
+
+/*CRESCIMENTO*/
+	OBS*: Deve sempre ser usada na classe da Div-Filha
+     flex-grow: 1; /*As Div-filhas tem o seu tamanho adaptado automaticamento ao tamanho da Div-pai*/
+
