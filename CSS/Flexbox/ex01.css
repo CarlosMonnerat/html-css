@@ -1,0 +1,25 @@
+.flex-pai{
+    background-color: blue;
+/* 'display: block' (Padrão)    */
+    display: flex; /*Coloca as Divs uma do lado da outra.
+    'display: flex' permite que tenhamos mais domínio do layout da página do que um "display: inline-block" */
+    
+    flex-direction: row;
+    /*Com o 'display: flex' podemos utilizar o 'flex-direction:' para determinar se as div aparecerão em linhas ou em colunas*/
+    flex-wrap: wrap; /*Ajusta as Divs de acordo com o tamanho da Div-pai.
+    'flex-wrap: nowrap;' (Padrão): As divs não levam em consideração o tamanho da div-pai
+                                ~ Formato 'Short-Hand'~ : 
+    "flex-flow: row wrap; */
+    
+
+
+}
+
+.flex-pai div{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+
+}
