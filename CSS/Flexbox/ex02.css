@@ -1,0 +1,35 @@
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+/*POSICIONAMENTO*/
+
+    /*HORIZONTAL*/
+    justify-content: center ; /*Controla as propriedades na Horizontal
+    'justify-content: flex-start' (padrão): Posiciona a Esquerda da Div-pai
+    'justify-content: flex-end': Posiciona a Direita da Div-pai
+    'justify-content: space-between': Adapta um espaçamento uniforme entre as divs de acordo com o tamanho da Div-pai
+    'justify-content: space-around': Cria um espaçamento uniforme em volta de cada div, respeitando o tamanho da Div-pai
+    */
+
+    /*VERTICAL*/
+    align-items: center;  /*Controla as propriedades na Vertical
+    'align-items: stretch;' (Padrão): As divs acompanham a altura total da Div-pai
+    'align-items: flex-start;': posiciona na parte de cima da Div-pai
+    'align-items: flex-end;': posiciona na parte de baixo da Div-pai
+    */
+    
+
+
+}
+
+.flex-pai div{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+
+}
