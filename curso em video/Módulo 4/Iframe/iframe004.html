@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe- Bloqueio de dados</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatem sequi sint voluptas aspernatur eligendi, similique enim quod consequuntur mollitia maiores vel nisi corrupti alias saepe incidunt debitis impedit quae.
+
+    </p>
+
+    <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer"> <!--Bloqueia o envio de dados a sites de terceiros-->
+        <p>Seu navegador não é compatível.</p>
+    </iframe>
+
+<!--Algumas permições possíveis:
+    sandbox="allow-same-origin"  (Permite coisas de msm origem)
+            "allow-forms"        (Permite o uso de formulários)
+            "allow-scripts"      (Permite scripts)
+-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti dolorem quod, soluta, quae reprehenderit illum maiores eum laboriosam nihil voluptatum quas nobis esse placeat quibusdam odit incidunt asperiores magnam! Minus!
+
+    </p>
+</body>
+</html>
