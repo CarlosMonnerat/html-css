@@ -26,12 +26,13 @@ main{
 }
 
 section#login{
+/* Posiciona a section no centro da tela */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
     overflow: hidden;
-
     background-color: white;
     width: 250px;
     height: 510px;
@@ -92,7 +93,7 @@ div.campo > input{
     border: 0px;
     border-radius: 5px;
 
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within{
