@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlaxBox Aula 06 - align - items</title>
+    <title>FlaxBox Aula 07 - Flex - Grow</title>
 </head>
 <style>
     body{
@@ -15,10 +15,9 @@
     .container{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around; 
-        align-items: center; /* Propriedade de alinhamento dos elementos contidos em um container seguindo a orientação do eixo secundário*/
-
+        /*flex-wrap: wrap;*/
+        justify-content: center; 
+        align-items: center; 
         max-width: 600px;
         height: 400px;
         margin: 0 auto;
@@ -32,9 +31,12 @@
         font-size: 1em;
         margin: 5px;
         padding: 5px;
-        width: 150px; /* A largura deve ser pensada de acordo com o tamanho do container */   
+        
     }
-    
+    .item_grow{
+        flex-grow: 3; /* Aumenta o tamanho do elemento em relação aos demais (Padrão flex-grow: 0;)*/
+    }
+
 </style>
 <body>
     <title>CSS FlexBox</title>
@@ -42,15 +44,9 @@
     <div class="container">
         <div class="item">CFB Cursos 1</div>
         <div class="item">CFB Cursos 2</div>
-        <div class="item">CFB Cursos 3</div>
+        <div class="item item_grow">CFB Cursos 3</div>
         <div class="item">CFB Cursos 4</div>
-        <div class="item">CFB Cursos 5</div>
-        <div class="item">CFB Cursos 6</div>
-        <div class="item">CFB Cursos 7</div>
-        <div class="item">CFB Cursos 8</div>
-        <div class="item">CFB Cursos 9</div>
         
-
     </div>
 </body>
 </html>
