@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 de Grid Layout</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+        }
+        .container{
+            border: 2px solid #f00;
+            display: grid;
+            grid-template-columns: auto auto auto; /*Quantidade e tamanho das colunas (Auto é o Padrão)*/
+            /* column-gap: 30px;               /* Cria um espaço entre as colunas */
+            /* row-gap: 10px;                  /* Cria um espaço entre as linhas */
+            gap: 15px 5px;                  /* Cria um espaço tanto entre as linhas quanto entre as colunas */
+
+        }
+        .item{
+            background-color: #048;
+            color: #ffff;
+            border: 1px solid #000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">CFB Cursos 1</div>
+        <div class="item">CFB Cursos 2</div>
+        <div class="item">CFB Cursos 3</div>
+        <div class="item">CFB Cursos 4</div>
+        <div class="item">CFB Cursos 5</div>
+        <div class="item">CFB Cursos 6</div>
+        <div class="item">CFB Cursos 7</div>
+        <div class="item">CFB Cursos 8</div>
+        <div class="item">CFB Cursos 9</div>
+        
+    </div>
+</body>
+</html>
