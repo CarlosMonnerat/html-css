@@ -13,10 +13,8 @@
         .container{
             border: 2px solid #f00;
             display: grid;
-            grid-template-columns: auto auto auto; /*Quantidade e tamanho das colunas (Auto é o Padrão)*/
-            /* column-gap: 30px;               /* Cria um espaço entre as colunas */
-            /* row-gap: 10px;                  /* Cria um espaço entre as linhas */
-            gap: 15px 5px;                  /* Cria um espaço tanto entre as linhas quanto entre as colunas */
+            grid-template-columns: auto auto auto;
+            gap: 10px;                  
 
         }
         .item{
@@ -25,12 +23,21 @@
             border: 1px solid #000;
             text-align: center;
         }
+        .it1{
+            /* grid-column-start: 1;    /* Indica em qual coluna o elemento vai começar dentro do grid */
+            /* grid-column-end: 3;      /*Indica em qual coluna o elemento vai terminar dentro do grid */
+            grid-column: 1/3;           /*Indica as duas propriedades acima porém em uma só */
+
+            /* grid-row-start: 1;       /* Indica em qual linha o elemento vai começar dentro do grid */
+            /* grid-row-end: 3;         /* Indica em qual linha o elemento vai terminar dentro do grid */
+            grid-row: 1/3;              /*Indica as duas propriedades acima porém em uma só */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item">CFB Cursos 1</div>
-        <div class="item">CFB Cursos 2</div>
+        <div class="item it1">CFB Cursos 2</div>
         <div class="item">CFB Cursos 3</div>
         <div class="item">CFB Cursos 4</div>
         <div class="item">CFB Cursos 5</div>
