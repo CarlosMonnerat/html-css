@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 de Grid Layout</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+        }
+        .container{
+            border: 2px solid #f00;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;                  
+
+        }
+        .item{
+            background-color: #048;
+            color: #ffff;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        .area{ /* É a junção de 'grid-row-start', 'grid-column-start', 'grid-row-end' e 'grid-column-end' seguindo esta ordem */
+            grid-area: 1 / 1 / 3 / 3;
+        }
+        .area2{
+            grid-area: 3 / 2 / 5 / 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item area">CFB Cursos 1</div>
+        <div class="item">CFB Cursos 2</div>
+        <div class="item">CFB Cursos 3</div>
+        <div class="item">CFB Cursos 4</div>
+        <div class="item">CFB Cursos 5</div>
+        <div class="item area2">CFB Cursos 6</div>
+        <div class="item">CFB Cursos 7</div>
+        <div class="item">CFB Cursos 8</div>
+        <div class="item">CFB Cursos 9</div>
+        
+    </div>
+</body>
+</html>
