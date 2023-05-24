@@ -15,19 +15,25 @@ header{
 }
 
 .nav_bar{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
        
 }
 
 .logo{
     margin: 20px;
+    position: relative;
+    top: 50px;
+    left: 140px;
 }
 
 .menu{
     border: 1px solid red;
-    height: fit-content;    
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    right: 80px;  
 }
 
 ul{
@@ -48,15 +54,19 @@ li a{
 }
 
 .hero{
+    border: 1px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: fit-content;
+    width: 800px;
+    height: 270px;
+    position: relative;
+    top: 150px;
+    left: 140px;
 }
 
 .hero h1{
-    border: 1px solid white;
+    font-size: 50px;
     color: white;
-    margin: 20px;
-    padding: 10px;
+    padding: 20px;
 }
