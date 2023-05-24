@@ -46,3 +46,17 @@ li a{
     color: white;
     font-size: 18px;
 }
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.hero h1{
+    border: 1px solid white;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
