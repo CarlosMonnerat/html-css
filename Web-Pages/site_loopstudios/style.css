@@ -1,8 +1,48 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+   
 }
 
 header{
+    border: 1px solid blue;
     background-image: url(./img-desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 700px;   
+}
+
+.nav_bar{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-around;
+       
+}
+
+.logo{
+    margin: 20px;
+}
+
+.menu{
+    border: 1px solid red;
+    height: fit-content;    
+}
+
+ul{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+}
+
+li{
+    margin: 20px;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
 }
