@@ -20,7 +20,8 @@ header{
     width: 100vw;
     height: 700px;
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
+    opacity: 0.8;
 }
 
 .header__nav{
@@ -33,35 +34,41 @@ header{
 .nav__logo{
     margin: 20px;
     position: relative;
-    top: 50px;
-    left: 140px;
-    opacity: 0.6;
+    top: 45px;
+    left: 145px;
+    opacity: 0.9;
+}
+.nav__logo a img{
+    width: 183px;
+    height: 30px;
 }
 
 .nav__menu{
-    border: 1px solid red;
     height: fit-content;
     position: relative;
-    top: 50px;
-    right: 80px;
-    width: 20%;  
+    top: 60px;
+    right: 240px;
+      
 }
 
 ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;   
+    list-style: none;
+    width: 200px; 
 }
 
 li{
-    margin: 20px;
+    margin: 10px;
+    margin-right: 13px;
     font-family: 'Josefin Sans', sans-serif; 
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 li a{
-    color: rgb(187,185,185);
+    color: rgb(222, 219, 219);
     text-decoration: none;
     
 }
