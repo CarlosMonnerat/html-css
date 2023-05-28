@@ -76,11 +76,11 @@ li a:hover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 728px;
+    width: 725px;
     height: 270px;
     position: absolute;
-    top: 250px;
-    left: 160px;
+    top: 220px;
+    left: 169px;
     border: 2px solid white;
     padding-left: 35px;
 }
