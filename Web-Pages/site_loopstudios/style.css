@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    position: absolute;
+    position: relative;
     background-image: url(./img-desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ header{
 
 .nav__logo{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 45px;
     left: 145px;
     opacity: 0.9;
@@ -42,11 +42,9 @@ header{
 }
 
 .nav__menu{
-    height: fit-content;
-    position: relative;
+    position: absolute;
     top: 60px;
-    right: 240px;
-      
+    right: 240px;     
 }
 
 ul{
@@ -80,9 +78,9 @@ li a:hover{
     align-items: center;
     width: 728px;
     height: 270px;
-    position: relative;
-    top: 140px;
-    left: 170px;
+    position: absolute;
+    top: 250px;
+    left: 160px;
     border: 2px solid white;
     padding-left: 35px;
 }
