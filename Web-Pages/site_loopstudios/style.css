@@ -10,6 +10,7 @@
 body{
     background-color: black;
     font-family: 'Alata', sans-serif;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -101,7 +102,6 @@ li a:hover{
 /* section  */
 
 section{
-    border: 2px solid red;
     background-color: white;
     position: relative;
     width: 100vw;
@@ -139,7 +139,7 @@ article{
     font-size: 45px;
     font-weight: 300;
     padding-top: 90px;
-    padding-left: 100px;
+    padding-left: 105px;
     opacity: 0.85;
 }
 
@@ -150,6 +150,6 @@ article{
     text-align: left;
     line-height: 1.5;
     padding-top: 18px;
-    padding-left: 100px;
+    padding-left: 105px;
     
 }
