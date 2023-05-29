@@ -123,9 +123,33 @@ section{
 article{
     border: 2px solid yellow;
     position: absolute;
-    top: 40%;
+    top: 38%;
     left: 45%;
     background-color: white;
     width: 45vw;
-    height: 40%;
+    height: 50%;
+}
+
+.article__h1{
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 90px;
+    padding-left: 100px;
+    opacity: 0.85;
+}
+
+.article__p{
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    color: rgb(129, 127, 127);
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 18px;
+    padding-left: 100px;
+    
 }
