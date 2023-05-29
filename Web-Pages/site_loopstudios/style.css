@@ -12,6 +12,7 @@ body{
     font-family: 'Alata', sans-serif;
 }
 
+/* HEADER */
 header{
     position: relative;
     background-image: url(./img-desktop/image-hero.jpg);
@@ -94,4 +95,37 @@ li a:hover{
     line-height: 1.0;
     color: white;
     opacity: 0.9;    
+}
+
+/* section  */
+
+section{
+    border: 2px solid red;
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section__interactive{
+    border: 2px solid blue;
+    position: absolute;
+    top: 100px;
+    left: 169px;
+    background-image: url(./img-desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45vw;
+    height: 470px;    
+}
+
+article{
+    border: 2px solid yellow;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background-color: white;
+    width: 45vw;
+    height: 40%;
 }
