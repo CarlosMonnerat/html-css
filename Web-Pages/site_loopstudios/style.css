@@ -167,3 +167,11 @@ aside{
     letter-spacing: 1.1;
 }
 
+.aside__btn{
+    border: 1px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    width: 110px;
+    height: 30px;
+
+}
