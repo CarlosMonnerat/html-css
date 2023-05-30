@@ -100,6 +100,7 @@ li a:hover{
 }
 
 /* section  */
+    /*  Article  */
 
 section{
     background-color: white;
@@ -130,7 +131,7 @@ article{
     height: 50%;
 }
 
-.article__h1{
+.article__h2{
     text-transform: uppercase;
     text-align: left;
     line-height: 1.1;
@@ -150,6 +151,10 @@ article{
     text-align: left;
     line-height: 1.5;
     padding-top: 18px;
-    padding-left: 105px;
-    
+    padding-left: 105px;    
+}
+
+    /*  aside  */
+aside{
+    background-color: white;
 }
