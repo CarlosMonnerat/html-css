@@ -192,9 +192,17 @@ aside{
     letter-spacing: 2.5px;
     width: 159px;
     height: 43px;
+    padding: 10px;
     position: absolute;
     top: 90px;
     right: 13%;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+.aside__btn:hover{
+    background-color: black;
+    color: white;
+    width: 165px;
+    height: 48px;
+    transition: all 0.4s ease;
 }
