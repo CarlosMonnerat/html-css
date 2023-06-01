@@ -156,7 +156,6 @@ article{
 
     /*  aside  */
 aside{
-    border: 1px solid blue;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -269,6 +268,30 @@ aside{
 }
 .img04{
     background-image: url(./img-desktop/image-grid.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img05{
+    background-image: url(./img-desktop/image-from-above.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img06{
+    background-image: url(./img-desktop/image-pocket-borealis.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img07{
+    background-image: url(./img-desktop/image-curiosity.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img08{
+    background-image: url(./img-desktop/image-fisheye.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
