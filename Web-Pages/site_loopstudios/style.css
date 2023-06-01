@@ -227,3 +227,24 @@ aside{
     top: 90px;
     left: 10%;
 }
+
+.aside__options02{
+    border: 1px solid red;
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 550px;
+    position: absolute;
+    top: 1400px; 
+}
+
+.option02_image{
+    border: 1px solid black;
+    background-color: blue;
+    width: 210px;
+    height: 410px;
+    margin: 25px;
+    position: relative;
+    top: 0px;
+    left: 10%;
+}
