@@ -248,3 +248,28 @@ aside{
     top: 0px;
     left: 10%;
 }
+
+.img01{
+    background-image: url(./img-desktop/image-deep-earth.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img02{
+    background-image: url(./img-desktop/image-night-arcade.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img03{
+    background-image: url(./img-desktop/image-soccer-team.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img04{
+    background-image: url(./img-desktop/image-grid.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
