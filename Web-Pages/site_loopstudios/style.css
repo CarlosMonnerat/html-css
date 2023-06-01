@@ -212,9 +212,9 @@ aside{
     background-color: white;
     display: flex;
     width: 100vw;
-    height: 900px;
+    height: 550px;
     position: absolute;
-    top: 150px; 
+    top: 850px; 
 }
 
 .option01_image{
@@ -224,6 +224,6 @@ aside{
     height: 410px;
     margin: 25px;
     position: relative;
-    top: 105px;
+    top: 90px;
     left: 10%;
 }
