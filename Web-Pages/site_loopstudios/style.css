@@ -207,7 +207,6 @@ aside{
 }
 
 .aside__options01{
-    border: 1px solid red;
     background-color: white;
     display: flex;
     width: 100vw;
@@ -217,18 +216,15 @@ aside{
 }
 
 .option01_image{
-    border: 1px solid black;
-    background-color: yellow;
-    width: 230px;
-    height: 420px;
-    margin: 12px;
+    width: 225px;
+    height: 430px;
+    margin: 15px;
     position: relative;
     top: 90px;
     left: 10%;
 }
 
 .aside__options02{
-    border: 1px solid red;
     background-color: white;
     display: flex;
     width: 100vw;
@@ -238,11 +234,9 @@ aside{
 }
 
 .option02_image{
-    border: 1px solid black;
-    background-color: blue;
-    width: 230px;
-    height: 420px;
-    margin: 12px;
+    width: 225px;
+    height: 430px;
+    margin: 15px;
     position: relative;
     top: 0px;
     left: 10%;
@@ -256,58 +250,129 @@ aside{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    
+    cursor: pointer;    
 }
+.img01:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
+}
+
 .img02{
     background-image: url(./img-desktop/image-night-arcade.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;    
+}
+.img02:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
 }
 .img03{
     background-image: url(./img-desktop/image-soccer-team.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img03:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
 }
 .img04{
     background-image: url(./img-desktop/image-grid.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img04:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
 }
 .img05{
     background-image: url(./img-desktop/image-from-above.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img05:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
 }
 .img06{
     background-image: url(./img-desktop/image-pocket-borealis.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img06:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
 }
 .img07{
     background-image: url(./img-desktop/image-curiosity.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img07:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
 }
 .img08{
     background-image: url(./img-desktop/image-fisheye.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.img08:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
 }
 
 .option__p{
-    color: darkgray;
+    color: white;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1.1;
-    padding-bottom: 27px;
+    padding-bottom: 40px;
     padding-left: 27px;
+    opacity: 0.95;
 }
