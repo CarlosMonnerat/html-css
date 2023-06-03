@@ -377,12 +377,26 @@ aside{
     opacity: 0.95;
 }
 
+    /* Footer */
+
 .footer{
     border: 2px solid red;
     background-color: black;
     width: 100vw;
     height: 250px;
     position: relative;
-    top: 1450px;
-    
+    top: 1450px;   
+}
+
+.footer a img{
+    width: 12%;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.footer__menu{
+    position: absolute;
+    top: 150px;
+    left: 240px;
 }
