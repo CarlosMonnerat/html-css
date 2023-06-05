@@ -400,3 +400,17 @@ aside{
     top: 150px;
     left: 240px;
 }
+
+.footer_redes_sociais{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 1165px;
+    width: 180px;
+    height: 40px;
+}
+
+.footer_redes_sociais img{
+    margin-right: 15px;
+    cursor: pointer;
+}
