@@ -414,3 +414,11 @@ aside{
     margin-right: 15px;
     cursor: pointer;
 }
+
+.footer__p{
+    color: white;
+    font-size: small;
+    position: absolute;
+    top: 228px;
+    left: 580px;    
+}
