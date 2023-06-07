@@ -420,9 +420,9 @@ aside{
     font-size: smaller;
     position: absolute;
     top: 228px;
-    left: 580px;    
+    left: 40%;    
 }
 
 .footer__p a{
-    color: blue;
+    color: hsl(228, 45%, 44%);
 }
