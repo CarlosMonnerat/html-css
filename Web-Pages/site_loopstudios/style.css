@@ -380,7 +380,6 @@ aside{
     /* Footer */
 
 .footer{
-    border: 2px solid red;
     background-color: black;
     width: 100vw;
     height: 250px;
@@ -399,6 +398,10 @@ aside{
     position: absolute;
     top: 150px;
     left: 16%;
+}
+
+.footer__menu a{
+    color: darkgray;
 }
 
 .footer_redes_sociais{
@@ -428,5 +431,9 @@ aside{
 }
 
 .footer__copyright{
-    color: darkgray;
+    color: rgb(110, 108, 108);
+    font-size: medium;
+    position: absolute;
+    top: 160px;
+    left: 68%;
 }
