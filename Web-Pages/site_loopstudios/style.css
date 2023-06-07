@@ -426,3 +426,7 @@ aside{
 .footer__p a{
     color: hsl(228, 45%, 44%);
 }
+
+.footer__copyright{
+    color: darkgray;
+}
