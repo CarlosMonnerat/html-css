@@ -417,8 +417,12 @@ aside{
 
 .footer__p{
     color: white;
-    font-size: small;
+    font-size: smaller;
     position: absolute;
     top: 228px;
     left: 580px;    
+}
+
+.footer__p a{
+    color: blue;
 }
