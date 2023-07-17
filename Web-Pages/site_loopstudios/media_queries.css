@@ -1,0 +1,15 @@
+@media (max-width: 320px) and (max-width: 480px) {  /* Móveis */
+
+}
+
+@media (max-width: 481px) and (max-width: 768px) {  /* tablets */
+
+}
+
+@media (max-width: 769px) and (max-width: 1024px) {  /* Desktops */
+    
+}
+
+@media (min-width: 1024px) {    /* Telas grandes */
+    
+}
