@@ -1,0 +1,136 @@
+@media (min-width: 320px) and (max-width: 569px){
+    header{
+        position: relative;
+        background-color: black;
+        background-image: url(./Img-mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .nav__logo{
+        margin: 20px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .hero{
+        width: 80%;
+        height: 270px;
+        top: 200px;
+        left: 35px;
+        
+    }
+    .hero h1{
+        font-size: 44px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 1.0;
+    }
+    .nav_hamburger a img{
+        position: absolute;
+        top: 40px;
+        left: 80%;
+        width: 25px;
+    }
+    .nav_hamburger a img:hover{
+        cursor: pointer;
+    }
+}
+
+/*Tablets*/
+@media (min-width: 570px) and (max-width: 768px){
+    header{
+        position: relative;
+        background-color: black;
+        background-image: url(./Img-mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .nav__logo{
+        margin: 20px;
+        position: absolute;
+        top: 38px;
+        left: 15px;
+    }
+    .nav__logo a img{
+        width: 78%;
+        height: 40px;
+    }
+    .hero{
+        width: 80%;
+        height: 270px;
+        top: 200px;
+        left: 35px;
+        
+    }
+    .hero h1{
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 1.0;
+    }
+    .nav_hamburger a img{
+        position: absolute;
+        top: 70px;
+        left: 80%;
+        width: 28px;
+    }
+    .nav_hamburger a img:hover{
+        cursor: pointer;
+    }
+}
+
+/*desktop*/
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        position: relative;
+        background-color: black;
+        background-image: url(./img-desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav__menu{
+        top: 60px;
+        right: 140px; 
+    }
+    .nav__logo{
+        margin: 20px;
+        position: absolute;
+        top: 38px;
+        left: 45px;
+    }
+    .nav__logo a img{
+        width: 72%;
+        height: 39px;
+    }
+    .hero{
+        width: 80%;
+        height: 300px;
+        top: 200px;
+        left: 55px;
+        padding-left: 53px;
+        
+    }
+    .hero h1{
+        font-size: 62px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 1.0;
+    }
+    .nav_hamburger a img{
+        display: none;
+    }
+    
+}
+
+/*Telas Grandes*/
+@media (min-width: 1025px){
+    .nav_hamburger a img{
+        display: none;
+    }
+}
