@@ -10,12 +10,13 @@
     }
     article{
         position: absolute;
-        top: 48%;
+        top: 53%;
         left: 40px;
         background-color: white;
-        width: 430px;
-        height: 50%;
+        width: 85vw;
+        height: 40vh;
         border: 2px solid red;
+        z-index: 1;
     }
     .article__h2{
         color: black;
@@ -32,7 +33,35 @@
 
 /*Tablets*/
 @media (min-width: 570px) and (max-width: 768px){
-
+    .section__interactive{
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        background-image: url(../Img-mobile/image-interactive.jpg);
+        width: 75vw;
+        height: 78vh;    
+    }
+    article{
+        position: absolute;
+        top: 65%;
+        left: 70px;
+        background-color: white;
+        width: 80vw;
+        height: 42vh;
+        border: 2px solid red;
+        z-index: 2;
+    }
+    .article__h2{
+        color: black;
+        font-size: 35px;
+        font-weight: 400;
+        padding-top: 30px;
+        padding-left: 18%;    
+    }
+    .article__p{
+        text-align: center;
+        padding: 10px 13% 13% 5%; 
+    }
 }
 
 /*desktop*/
