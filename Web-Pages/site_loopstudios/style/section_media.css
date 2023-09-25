@@ -1,0 +1,44 @@
+/*Smartphones*/
+@media (min-width: 320px) and (max-width: 569px){
+    .section__interactive{
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        background-image: url(../Img-mobile/image-interactive.jpg);
+        width: 75vw;
+        height: 470px;    
+    }
+    article{
+        position: absolute;
+        top: 48%;
+        left: 70px;
+        background-color: white;
+        width: 75vw;
+        height: 50%;
+    }
+    .article__h2{
+        color: black;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        font-size: 6vw;
+        font-weight: 400;
+        padding-top: 60px;
+        padding-left: 60px;
+        
+    }
+}
+
+/*Tablets*/
+@media (min-width: 570px) and (max-width: 768px){
+
+}
+
+/*desktop*/
+@media (min-width: 769px) and (max-width: 1024px){
+
+}
+
+/*Telas Grandes*/
+@media (min-width: 1025px){
+    
+}

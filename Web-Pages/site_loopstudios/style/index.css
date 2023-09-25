@@ -132,6 +132,7 @@ article{
 }
 
 .article__h2{
+    color: black;
     text-transform: uppercase;
     text-align: left;
     line-height: 1.1;
