@@ -11,20 +11,22 @@
     article{
         position: absolute;
         top: 48%;
-        left: 70px;
+        left: 40px;
         background-color: white;
-        width: 75vw;
+        width: 430px;
         height: 50%;
+        border: 2px solid red;
     }
     .article__h2{
         color: black;
-        line-height: 1.1;
-        letter-spacing: 2px;
         font-size: 6vw;
         font-weight: 400;
-        padding-top: 60px;
-        padding-left: 60px;
-        
+        padding-top: 30px;
+        padding-left: 70px;    
+    }
+    .article__p{
+        text-align: center;
+        padding: 10px 50px; 
     }
 }
 
