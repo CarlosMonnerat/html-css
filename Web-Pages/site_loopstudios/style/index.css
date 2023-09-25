@@ -17,7 +17,7 @@ body{
 header{
     position: relative;
     background-color: black;
-    background-image: url(./img-desktop/image-hero.jpg);
+    background-image: url(../img-desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -115,7 +115,7 @@ section{
     position: absolute;
     top: 100px;
     left: 169px;
-    background-image: url(./img-desktop/image-interactive.jpg);
+    background-image: url(../img-desktop/image-interactive.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 45vw;
@@ -243,7 +243,7 @@ aside{
 }
 
 .img01{
-    background-image: url(./img-desktop/image-deep-earth.jpg);
+    background-image: url(../img-desktop/image-deep-earth.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ aside{
 }
 
 .img02{
-    background-image: url(./img-desktop/image-night-arcade.jpg);
+    background-image: url(../img-desktop/image-night-arcade.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img03{
-    background-image: url(./img-desktop/image-soccer-team.jpg);
+    background-image: url(../img-desktop/image-soccer-team.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img04{
-    background-image: url(./img-desktop/image-grid.jpg);
+    background-image: url(../img-desktop/image-grid.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img05{
-    background-image: url(./img-desktop/image-from-above.jpg);
+    background-image: url(../img-desktop/image-from-above.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -319,7 +319,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img06{
-    background-image: url(./img-desktop/image-pocket-borealis.jpg);
+    background-image: url(../img-desktop/image-pocket-borealis.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -334,7 +334,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img07{
-    background-image: url(./img-desktop/image-curiosity.jpg);
+    background-image: url(../img-desktop/image-curiosity.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -349,7 +349,7 @@ aside{
     transition: all 0.4s ease;
 }
 .img08{
-    background-image: url(./img-desktop/image-fisheye.jpg);
+    background-image: url(../img-desktop/image-fisheye.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
