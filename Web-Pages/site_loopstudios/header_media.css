@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 569px){
+@media (min-width: 320px) and (max-width: 569px){ /*Smartphones*/
     header{
         position: relative;
         background-color: black;
@@ -58,8 +58,8 @@
         left: 15px;
     }
     .nav__logo a img{
-        width: 78%;
-        height: 40px;
+        width: 73%;
+        height: 38px;
     }
     .hero{
         width: 80%;
