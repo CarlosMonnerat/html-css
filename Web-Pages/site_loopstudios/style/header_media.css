@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 569px){ /*Smartphones*/
+@media (min-width: 320px) and (max-width: 569px){
     header{
         position: relative;
         background-color: black;
@@ -39,7 +39,6 @@
     }
 }
 
-/*Tablets*/
 @media (min-width: 570px) and (max-width: 768px){
     header{
         position: relative;
@@ -55,11 +54,11 @@
         margin: 20px;
         position: absolute;
         top: 38px;
-        left: 15px;
+        left: 25px;
     }
     .nav__logo a img{
-        width: 73%;
-        height: 38px;
+        width: 28vw;
+        height: 5vh;
     }
     .hero{
         width: 80%;
@@ -85,7 +84,6 @@
     }
 }
 
-/*desktop*/
 @media (min-width: 769px) and (max-width: 1024px){
     header{
         position: relative;
@@ -105,16 +103,15 @@
         left: 45px;
     }
     .nav__logo a img{
-        width: 72%;
-        height: 39px;
+        width: 20vw;
+        height: 5vh;
     }
     .hero{
         width: 80%;
         height: 300px;
         top: 200px;
         left: 55px;
-        padding-left: 53px;
-        
+        padding-left: 53px;    
     }
     .hero h1{
         font-size: 62px;
@@ -128,8 +125,20 @@
     
 }
 
-/*Telas Grandes*/
-@media (min-width: 1025px){
+@media (min-width: 1025px)and (max-width: 1226px){
+    .nav__logo{
+        margin: 20px;
+        position: absolute;
+        top: 38px;
+        left: 45px;
+    }
+    .hero{
+        width: 80%;
+        height: 300px;
+        top: 200px;
+        left: 55px;
+        padding-left: 53px;    
+    }
     .nav_hamburger a img{
         display: none;
     }
