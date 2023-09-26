@@ -28,9 +28,22 @@
         text-align: center;
         padding: 10px 50px; 
     }
+    .aside__h2{
+        font-size: 6vw;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+    }
+    .aside__btn{
+        font-size: 3vw;
+        position: absolute;
+        top: 80px;
+        left: 35%;    
+    }
 }
 
-/*Tablets*/
 @media (min-width: 570px) and (max-width: 768px){
     .section__interactive{
         position: absolute;
@@ -42,7 +55,7 @@
     }
     article{
         position: absolute;
-        top: 65%;
+        top: 58%;
         left: 70px;
         background-color: white;
         width: 80vw;
@@ -59,6 +72,20 @@
         text-align: center;
         padding: 10px 13% 13% 5%; 
     }
+    .aside__h2{
+        font-size: 5vw;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: absolute;
+        top: 30%;
+        left: 29%;
+    }
+    .aside__btn{
+        font-size: 2vw;
+        position: absolute;
+        top: 100px;
+        left: 37%;    
+    }
 }
 
 /*desktop*/
@@ -69,12 +96,12 @@
         left: 50px;
         background-image: url(../Img-mobile/image-interactive.jpg);
         width: 55vw;
-        height: 88vh;    
+        height: 78vh;    
     }
     article{
         top: 34%;
         width: 52vw;
-        height: 45vh;
+        height: 50vh;
     }
     .article__h2{
         color: black;
@@ -87,10 +114,18 @@
         text-align: left;
         padding: 10px 20% 20% 12%; 
     }
+    .aside__h2{
+        top: 20%;
+    }
+    .aside__btn{
+        position: absolute;
+        top: 25px;    
+    }
+    
 }
 
 /*Telas Grandes*/
-@media (min-width: 1025px)and (max-width: 1226px){
+@media (min-width: 1024px)and (max-width: 1226px){
     .section__interactive{
         position: absolute;
         top: 60px;
