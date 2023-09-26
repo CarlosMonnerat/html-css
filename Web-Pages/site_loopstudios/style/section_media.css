@@ -54,7 +54,7 @@
     .article__h2{
         color: black;
         font-size: 35px;
-        font-weight: 400;
+        font-weight: 300;
         padding-top: 30px;
         padding-left: 18%;    
     }
@@ -66,7 +66,32 @@
 
 /*desktop*/
 @media (min-width: 769px) and (max-width: 1024px){
-
+    .section__interactive{
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        background-image: url(../Img-mobile/image-interactive.jpg);
+        width: 55vw;
+        height: 88vh;    
+    }
+    article{
+        top: 34%;
+        width: 52vw;
+        height: 45vh;
+        border: 2px solid red;
+        z-index: 2;
+    }
+    .article__h2{
+        color: black;
+        font-size: 4vw;
+        font-weight: 300;
+        padding-top: 30px;
+        padding-left: 12%;    
+    }
+    .article__p{
+        text-align: center;
+        padding: 10px 20% 20% 12%; 
+    }
 }
 
 /*Telas Grandes*/
