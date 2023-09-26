@@ -133,12 +133,18 @@
         left: 45px;
     }
     .hero{
-        width: 80%;
+        width: 68%;
         height: 300px;
         top: 200px;
         left: 55px;
         padding-left: 53px;    
     }
+    .nav_hamburger a img{
+        display: none;
+    }
+}
+
+@media (min-width: 1226px){
     .nav_hamburger a img{
         display: none;
     }
