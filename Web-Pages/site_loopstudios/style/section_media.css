@@ -15,7 +15,6 @@
         background-color: white;
         width: 85vw;
         height: 40vh;
-        border: 2px solid red;
         z-index: 1;
     }
     .article__h2{
@@ -48,8 +47,6 @@
         background-color: white;
         width: 80vw;
         height: 42vh;
-        border: 2px solid red;
-        z-index: 2;
     }
     .article__h2{
         color: black;
@@ -78,8 +75,6 @@
         top: 34%;
         width: 52vw;
         height: 45vh;
-        border: 2px solid red;
-        z-index: 2;
     }
     .article__h2{
         color: black;
@@ -89,12 +84,35 @@
         padding-left: 12%;    
     }
     .article__p{
-        text-align: center;
+        text-align: left;
         padding: 10px 20% 20% 12%; 
     }
 }
 
 /*Telas Grandes*/
-@media (min-width: 1025px){
-    
+@media (min-width: 1025px)and (max-width: 1226px){
+    .section__interactive{
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        background-image: url(../Img-mobile/image-interactive.jpg);
+        width: 55vw;
+        height: 88vh;    
+    }
+    article{
+        top: 44%;
+        width: 52vw;
+        height: 45vh;
+    }
+    .article__h2{
+        color: black;
+        font-size: 4vw;
+        font-weight: 300;
+        padding-top: 30px;
+        padding-left: 12%;    
+    }
+    .article__p{
+        text-align: left;
+        padding: 10px 20% 20% 12%; 
+    }
 }
