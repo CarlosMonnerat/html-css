@@ -242,3 +242,37 @@
     }
     
 }
+
+@media (min-width: 1024px) and (max-width: 1264px){
+    .aside__options01{
+        width: 90vw;
+        height: 550px;
+        position: absolute;
+        top: 850px; 
+    }
+    .option01_image{
+        width: 20%;
+        height: 430px;
+        margin: 15px;
+        position: relative;
+        top: 90px;
+        left: 5%;
+    }
+
+    .aside__options02{
+        width: 90vw;
+        height: 550px;
+        position: absolute;
+        top: 1450px; 
+    }
+    .option02_image{
+        width: 20%;
+        height: 430px;
+        margin: 15px;
+        position: relative;
+        top: 10px;
+        left: 5%;
+    }
+    
+    
+}
