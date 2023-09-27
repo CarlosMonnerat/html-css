@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Alata', sans-serif;
     overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ body{
 /* HEADER */
 header{
     position: relative;
-    background-color: black;
+    background-color: black !important;
     background-image: url(../img-desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ header{
     height: 700px;
     margin: 0px;
     padding: 0px;
-    opacity: 0.7;
+    opacity: 1.1;
     
 }
 
