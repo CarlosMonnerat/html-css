@@ -16,7 +16,6 @@ body{
 /* HEADER */
 header{
     position: relative;
-    background-color: black !important;
     background-image: url(../img-desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
