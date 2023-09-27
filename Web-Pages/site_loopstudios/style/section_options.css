@@ -92,13 +92,6 @@
         top: 10px;
         transition: all 0.4s ease;
     }
-    .footer{
-        background-color: black;
-        width: 100vw;
-        height: 250px;
-        position: relative;
-        top: 1750px;   
-    }
 }
 
 @media (min-width: 668px) and (max-width: 869px){
@@ -194,13 +187,6 @@
         position: relative;
         top: 10px;
         transition: all 0.4s ease;
-    }
-    .footer{
-        background-color: black;
-        width: 100vw;
-        height: 250px;
-        position: relative;
-        top: 1950px;   
     }
 }
 

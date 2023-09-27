@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 668px){
+    .footer{
+        width: 100vw;
+        height: 250px;
+        position: relative;
+        top: 1800px;   
+    }
+}
+
