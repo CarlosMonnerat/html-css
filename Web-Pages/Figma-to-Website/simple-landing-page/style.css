@@ -13,4 +13,14 @@ body{
     background-position: center;
     background-color: #0008;
     background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+ main{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
