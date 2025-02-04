@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background: linear-gradient(#CF2425,#DA6062 50%, #DA6062 60%, #DA3B3F);
 }
+
 .background-logo{
     position: absolute;
     max-width: 100%;
@@ -25,8 +26,16 @@ body{
 }
 
 header{
-    background-color: turquoise;
     height: 100px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    color: #FFF;
+    margin-left: 75px;
 }
 
 main{
