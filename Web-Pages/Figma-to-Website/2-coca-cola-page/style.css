@@ -9,3 +9,16 @@ body{
     height: 100vh;
     background: linear-gradient(#CF2425,#DA6062 50%, #DA6062 60%, #DA3B3F);
 }
+.background-logo{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 50%;
+
+
+}
