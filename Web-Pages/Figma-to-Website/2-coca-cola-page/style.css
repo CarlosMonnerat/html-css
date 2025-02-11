@@ -59,10 +59,13 @@ main{
     transform: translateX(-100%);
     text-align: end;
     margin-right: 26px;
+    opacity: 70%;
+    font-weight: 700;
 }
 
 .content-img{
     height: 80vh;
+    filter: drop-shadow(0px 200px 20px #0006);
 }
 
  footer{
