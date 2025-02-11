@@ -36,12 +36,35 @@ header nav{
     gap: 20px;
     color: #FFF;
     margin-left: 75px;
+    font-family: "Roboto", serif;
+}
+
+header nav img{
+    cursor: pointer;
 }
 
 main{
-    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
 }
+
+.content-text{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-family: "Montserrat", serif;
+    width: 212px;
+    transform: translateX(-100%);
+    text-align: end;
+    margin-right: 26px;
+}
+
+.content-img{
+    height: 80vh;
+}
+
  footer{
     background-color: violet;
     height: 100px;
