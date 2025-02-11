@@ -80,3 +80,27 @@ footer{
     margin-right: 75px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px){
+    header nav{
+        margin-left: 25px;
+    }
+
+    main{
+        align-items: flex-end;
+    }
+
+    .content-text{
+        transform: translateX(0);
+        top: 80px;
+        font-size: 1.1rem;
+        width: 110px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content-image{
+        height: 70vh;
+    }
+    
+}
