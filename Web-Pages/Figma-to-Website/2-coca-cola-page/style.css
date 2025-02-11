@@ -72,7 +72,6 @@ footer{
     display: flex;
     justify-content: end;
     align-items: center;
-    background-color: violet;
     height: 100px;    
 }
 
@@ -91,16 +90,20 @@ footer{
     }
 
     .content-text{
-        transform: translateX(0);
+        transform: translate(0, 50%);
         top: 80px;
-        font-size: 1.1rem;
-        width: 110px;
+        font-size: 1.2rem;
+        width: 120px;
         text-align: center;
         margin: 0;
     }
 
     .content-image{
         height: 70vh;
+    }
+
+    footer{
+        height: 60px;
     }
     
 }
