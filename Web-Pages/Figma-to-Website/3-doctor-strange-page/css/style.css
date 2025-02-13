@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: linear-gradient(90deg, #000, #000e 30%, #000A 50%, #0000), url(../img/background.png);
+    background: linear-gradient(90deg, #000 10%, #000e 40%, #0000), url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
