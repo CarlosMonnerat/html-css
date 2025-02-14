@@ -4,9 +4,52 @@ main{
 }
 
 .content-container{
-    background-color: aqua;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
 }
+
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 7rem;
+}
+
+.content-container h1 span{
+    font-size: 2rem;
+    font-weight: 200;
+    transform: translateY(30px);
+}
+
+.movie-tittle{
+    font-size: 2.6rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #E62721;
+    transform: translateY(-20px);    
+}
+
+.movie-text{
+    width: 550px;
+    font-size: 1.1rem;
+    font-weight: 100;    
+}
+
+.movie-button{
+    background-color: #E62721;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
 
 .social-container{
     background-color: lightgreen;
