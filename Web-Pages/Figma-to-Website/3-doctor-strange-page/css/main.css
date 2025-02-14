@@ -1,4 +1,14 @@
 main{
-    background-color: tomato;
     flex-grow: 1;
+    display: flex;
+}
+
+.content-container{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.social-container{
+    background-color: lightgreen;
+    width: 48px;
 }
