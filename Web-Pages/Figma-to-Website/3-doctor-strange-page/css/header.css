@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container{
+    display: flex;
+    gap: 40px;
+}
+
+.links-container a{
+    text-shadow: 2px 2px 2px #000;
+}
+
+.links-container a:hover{
+    background-color: tomato;
+}

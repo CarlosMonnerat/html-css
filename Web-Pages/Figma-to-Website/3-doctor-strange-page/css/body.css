@@ -5,21 +5,5 @@ body{
     background: linear-gradient(90deg, #000 10%, #000e 40%, #0000), url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
     padding: 80px 128px 50px 128px;
-}
-
-header{
-    background-color: rgb(249, 15, 249);
-    height: 36px;
-}
-
-main{
-    background-color: tomato;
-    flex-grow: 1;
-}
-
-footer{
-    background-color: rgb(0, 89, 255);
-    height: 21px;
 }
