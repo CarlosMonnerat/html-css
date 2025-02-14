@@ -15,6 +15,7 @@ main{
     display: flex;
     flex-direction: column;
     font-size: 7rem;
+    font-weight: 400;
 }
 
 .content-container h1 span{
@@ -50,8 +51,35 @@ main{
     margin-top: 30px;
 }
 
-
 .social-container{
-    background-color: lightgreen;
     width: 48px;
+}
+
+.social-container ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-container li{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    transition: all .7s;
+}
+
+.social-container li:hover{
+    background-color: #E62721;
+    border: none;
+}
+
+.social-container i{
+    font-size: 1.5rem;
 }
