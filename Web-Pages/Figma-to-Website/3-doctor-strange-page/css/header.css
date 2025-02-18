@@ -30,7 +30,7 @@ header{
         align-items: center;
         gap: 65px;
         font-size: 2rem;
-        background-color: #000;
+        background-color: #000000fd;
         transform: translateX(100%);
         z-index: 1;
         opacity: 0;
