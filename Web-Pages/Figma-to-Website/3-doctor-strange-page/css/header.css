@@ -17,3 +17,20 @@ header{
     background-color: #E62721;
     transition: all 1s;    
 }
+
+@media (max-width: 768px){
+    .links-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 65px;
+        font-size: 2rem;
+        background-color: #000;
+        z-index: 1;
+    }
+}
