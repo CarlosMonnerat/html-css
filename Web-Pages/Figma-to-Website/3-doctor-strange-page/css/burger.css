@@ -1,4 +1,4 @@
-.menu-burguer-container{
+.menu-burger-container{
     position: absolute;
     display: flex;
     align-items: center;
@@ -9,9 +9,9 @@
     z-index: 2;
 }
 
-.menu-burguer,
-.menu-burguer::before,
-.menu-burguer::after{
+.menu-burger,
+.menu-burger::before,
+.menu-burger::after{
     position: absolute;
     content: "";
     display: block;
@@ -22,22 +22,22 @@
     transition: all 1s;    
 }
 
-.menu-burguer::before{
+.menu-burger::before{
     transform: translateY(-10px);
 }
 
-.menu-burguer::after{
+.menu-burger::after{
     transform: translateY(10px);
 }
 
-.menu-burguer-container.active .menu-burguer{
+.menu-burger-container.active .menu-burger{
     background-color: transparent;
 }
 
-.menu-burguer-container.active .menu-burguer::before{
+.menu-burger-container.active .menu-burger::before{
     transform: rotate(45deg);
 }
-.menu-burguer-container.active .menu-burguer::after{
+.menu-burger-container.active .menu-burger::after{
     transform: rotate(-45deg);
 }
 
