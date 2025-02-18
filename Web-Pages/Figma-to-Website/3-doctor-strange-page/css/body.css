@@ -1,3 +1,7 @@
+html, body{
+    position: relative;
+    overflow: hidden;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -13,8 +17,7 @@ body{
     body{
         padding: 30px 30px 25px 30px;
         background-image: url(../img/background.png);
-        background-color: #0008;
-        background-blend-mode: darken;
-        
+        background-color: #0009;
+        background-blend-mode: darken;    
     }
 }
