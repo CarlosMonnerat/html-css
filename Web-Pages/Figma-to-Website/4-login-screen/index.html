@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- redes sociais Icons Imports (Font Awesome Kit) -->
+    <!-- Social Media Icons Imports (Font Awesome Kit) -->
     <script src="https://kit.fontawesome.com/c7c591bc87.js"crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+            <!-- Font: Red Hat Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
     <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/colors.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/login-container.css">
     <link rel="stylesheet" href="./css/form-container.css">
     <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/form-tittle.css">
 
 
     <title>Login Screen</title>
@@ -24,12 +32,21 @@
                 <form class="form form-login">
                     <h2 class="form-tittle">Entrar com</h2>
                     <div class="form-social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-google"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>                        
                     </div>
                     <p class="form-text">ou utilize sua conta</p>
-                    <div class="form-inputs">Email e senha</div>
+                    <div class="form-inputs">
+                        <input type="email" class="form-input" placeholder="email">
+                        <input type="password" class="form-input" placeholder="senha">
+                    </div>
                     <a href="#" class="form-link">Esqueceu a senha?</a>
                     <button class="form-button">Logar</button>
                 </form>
