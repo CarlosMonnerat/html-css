@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: "Red Hat Display", serif;
 }
+
+a{
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
