@@ -10,9 +10,9 @@
 }
 
 .form-login{
-    background-color: #fff;
+    background-color: var(--secundary-color);
 }
 
 .form-register{
-    background-color: yellow;
+    background-color: var(--secundary-color);
 }
