@@ -17,3 +17,13 @@
     color: var(--secundary-color);
     transform: scale(0.98);
 }
+
+.form-button-light{
+    border: 2px solid var(--secundary-color);
+    color: var(--secundary-color);
+}
+.form-button-light:hover{
+    background-color: var(--secundary-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
