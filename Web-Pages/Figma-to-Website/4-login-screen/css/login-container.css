@@ -9,6 +9,13 @@
 
 @media (max-width: 768px){
     .login-container{
+        width: 75vw;
+        height: 75vh;
+    }
+}
+
+@media (max-width: 480px){
+    .login-container{
         width: 100vw;
         height: 100vh;
         box-shadow: none;
