@@ -4,20 +4,20 @@
     align-items: center;
     top: 30px;
     right: 30px;
-    height: 36px;
     width: 36px;
+    height: 36px;
     z-index: 2;
 }
 
 .menu-burger,
 .menu-burger::before,
 .menu-burger::after{
-    position: absolute;
     content: "";
+    position: absolute;
     display: block;
     background-color: #fff;
-    height: 4px;
     width: 36px;
+    height: 4px;
     border-radius: 5px;
     transition: all 1s;    
 }
