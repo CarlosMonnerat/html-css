@@ -9,3 +9,26 @@
     --secundary-color: #8E4106;
     --text-background: #ffffff;
 }
+
+body{
+    height: 100vh;
+    border: 5px solid red;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    height: 67px;
+}
+
+main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: plum;
+    height: 67px;
+}
