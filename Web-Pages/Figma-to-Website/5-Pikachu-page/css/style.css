@@ -19,15 +19,27 @@ body{
 
 .container{
     height: 100%;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    width: 90vw;
     margin: auto;
 }
 
 header{
-    background-color: aqua;
     margin-top: 70px;
+}
+
+header a{
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--secundary-color);
+
 }
 
 main{
