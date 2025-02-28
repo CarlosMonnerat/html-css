@@ -18,13 +18,16 @@ body{
 }
 
 .container{
+    height: 100%;
     display: grid;
-    
+    grid-template-columns: repeat(12, 1fr);
+    width: 90vw;
+    margin: auto;
 }
 
 header{
     background-color: aqua;
-    height: 67px;
+    margin-top: 70px;
 }
 
 main{
@@ -34,5 +37,5 @@ main{
 
 footer{
     background-color: plum;
-    height: 67px;
+    margin-bottom: 24px;
 }
