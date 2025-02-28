@@ -15,6 +15,7 @@ body{
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
+    font-family: 'Righteous', sans-serif;
 }
 
 .container{
@@ -35,19 +36,49 @@ header a{
     align-items: center;
     gap: 16px;
     text-decoration: none;
-    font-family: 'Righteous', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: var(--secundary-color);
-
 }
 
 main{
-    background-color: tomato;
     flex-grow: 1;
 }
 
+.title{
+    position: relative;
+    grid-column: 1/-1;
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_text{
+    font-size: 20vw;
+    color: var(--text-background);
+}
+
+.title_transparent{
+    position: absolute;
+    top: -50%;
+    font-size: 27vw;
+    color: #fff5;
+    z-index: -1;
+}
+
+.description{
+    background-color: purple;
+    grid-column: 1/7;
+}
+
+.action{
+    background-color: rgb(251, 26, 191);
+    grid-column: 7/-1;
+}
+
 footer{
-    background-color: plum;
+    background-color: aqua;
     margin-bottom: 24px;
 }
