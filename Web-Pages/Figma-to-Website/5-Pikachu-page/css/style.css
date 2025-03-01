@@ -55,12 +55,12 @@ main{
     align-items: center;
 }
 
-.title_text{
+.title__text{
     font-size: 20vw;
     color: var(--text-background);
 }
 
-.title_transparent{
+.title__transparent{
     position: absolute;
     top: -50%;
     font-size: 27vw;
@@ -69,8 +69,18 @@ main{
 }
 
 .description{
-    background-color: purple;
     grid-column: 1/7;
+    place-self: start;
+    color: var(--secundary-color);
+}
+
+.description__title{
+    font-size: 4rem;
+}
+
+.description__text{
+    width: 500px;
+    font-size: 1.2rem;
 }
 
 .action{
