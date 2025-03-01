@@ -84,8 +84,17 @@ main{
 }
 
 .action{
-    background-color: rgb(251, 26, 191);
     grid-column: 7/-1;
+    place-self: center end;
+    width: 411px;
+    height: 100px;
+    background-color: var(--secundary-color);
+    color: var(--text-background);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 footer{
