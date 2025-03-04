@@ -113,3 +113,37 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Tablets */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .title{
+        place-self: start center;
+        transform: translateY(20%);
+    }
+
+    .description{
+        grid-column: 1;
+        grid-row: 2;
+        place-self: center;
+        text-align: center;
+    }
+
+    .action{
+        grid-column: 1;
+        grid-row: 2;
+        place-self: end center;
+        margin-bottom: 24px;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+
+}
