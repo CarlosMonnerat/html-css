@@ -116,7 +116,7 @@ main{
 
 /* Tablets */
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .container{
         grid-template-columns: 1fr;
     }
@@ -149,7 +149,7 @@ main{
     }
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
     .description__title{
         font-size: 10vw;
     }
@@ -164,5 +164,11 @@ main{
 
     .pikachu-image{
         width: 90vw;
+    }
+}
+
+@media (max-height: 968px){
+    .description__text{
+        margin-bottom: 100px;
     }
 }
