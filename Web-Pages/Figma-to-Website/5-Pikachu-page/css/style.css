@@ -72,6 +72,7 @@ main{
     grid-column: 1/7;
     place-self: start;
     color: var(--secundary-color);
+    z-index: 1;
 }
 
 .description__title{
@@ -95,6 +96,7 @@ main{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    z-index: 1;
 }
 
 .footer__text{
