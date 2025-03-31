@@ -3,6 +3,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 0 64px;
+    gap: 95px;
 }
 
 .group{
@@ -23,5 +24,37 @@ footer{
 }
 
 .matchs{
-    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
 }
+
+.match-container{
+    display: flex;
+    gap: 16px;
+}
+
+.match{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #fff;
+    padding-right: 16px;
+}
+
+.match:last-child{
+    border-right: none;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 0 0 8px var(--tertiary-color);
+}
+
+.match__contry{
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.match__date{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
