@@ -8,12 +8,32 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
 .logo__text{
-    color: #ffff;
+    color: #fff;
     font-size: 3rem;
     font-weight: 400;
     width: 200px;
     text-shadow: 2px 2px 2px #000;
+}
+
+.menu{
+    display: flex;
+    font-size: 2rem;
+    gap: 32px;
+    color: #fff;
+}
+
+.menu__item{
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 300;
+    border-bottom: 4px solid transparent;
+    transition: all .5s;
+}
+
+.menu__item:hover{
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--secundary-color);
 }
