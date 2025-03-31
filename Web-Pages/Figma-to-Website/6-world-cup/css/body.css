@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 35% bottom;
+    font-family: "Iceland", sans-serif;
 }
 
 .overlay{
@@ -16,4 +17,5 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .6;
+    z-index: -1;
 }

@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo__text{
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 200px;
+    text-shadow: 2px 2px 2px #000;
+}
