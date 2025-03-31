@@ -48,6 +48,7 @@ header{
         content: "\2261";
         font-size: 4rem;
         color: #fff;
+        cursor: pointer;
     }
     .menu{
         display: none;
