@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    background-image: url(../img/estadio-lusail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35% bottom;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/background-cores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .6;
+}
