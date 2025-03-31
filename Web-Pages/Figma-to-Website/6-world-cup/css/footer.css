@@ -1,0 +1,27 @@
+footer{
+    background-color: var(--secundary-color-transparent);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 64px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-tittle{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.group-flags{
+    display: flex;
+    gap: 32px;
+}
+
+.matchs{
+    background-color: plum;
+}
