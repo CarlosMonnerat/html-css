@@ -38,3 +38,18 @@ header{
     color: var(--primary-color);
     border-bottom: 4px solid var(--secundary-color);
 }
+
+@media (max-width: 1024px){
+    header{
+        margin: 34px;
+    }
+
+    nav::before{
+        content: "\2261";
+        font-size: 4rem;
+        color: #fff;
+    }
+    .menu{
+        display: none;
+     }
+}

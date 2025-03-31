@@ -32,3 +32,13 @@ main{
 .star:last-child{
     color: var(--tertiary-color);
 }
+
+@media (max-width: 1024px){
+    .tittle{
+        font-size: 30vw;
+    }
+
+    .star{
+        font-size: 2.5rem;
+    }
+}

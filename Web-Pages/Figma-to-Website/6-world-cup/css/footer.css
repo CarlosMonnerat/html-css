@@ -58,3 +58,33 @@ footer{
     font-size: 2rem;
 }
 
+@media (max-width: 1024px){
+    footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-bottom: 32px;
+    }
+
+    .group{
+        align-items: center;
+    }
+
+    .group-flags{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .matchs{
+        align-items: center;
+        place-self: center;
+    }
+
+    .match-container{
+        flex-direction: column;
+    }
+
+    .match:last-child{
+        border-right: 2px solid #fff;
+    }
+}
+
