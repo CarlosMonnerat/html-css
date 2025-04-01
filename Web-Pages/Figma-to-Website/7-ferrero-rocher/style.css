@@ -10,3 +10,12 @@
     --tertiary-color: #fff;
     --font-family: "Indie Flower", cursive;
 }
+
+body{
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    background-color: var(--primary-color);
+}
