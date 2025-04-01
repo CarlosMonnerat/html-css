@@ -29,14 +29,16 @@ main{
 
 .container-left{
     background-image: url(./img/bombom.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .container-right{
     background-image: url(./img/bombom-aberto.png);
+}
+
+.container-left, .container-right{
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 .container-center{
@@ -62,4 +64,29 @@ main{
     color: var(--tertiary-color);
     font-size: 2rem;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .container-left, .container-right{
+        display: none;
+    }
+
+    .container-center{
+        background-image: url(./img/bombom.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: soft-light;
+    }
+
+    .text{
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        width: 80vw;
+    }
 }
