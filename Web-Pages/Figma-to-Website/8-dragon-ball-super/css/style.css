@@ -12,3 +12,17 @@ a{
 ul, ol, li{
     list-style: none;
 }
+
+body{
+    height: 100vh;
+    background-color: #000;
+}
+
+video{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: .6;
+}
